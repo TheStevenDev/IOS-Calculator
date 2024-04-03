@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Calcolatrice</title>
+    <meta name="description" content="Calcolatrice in HTMl,CSS e Javascript fatta da Steven D'amore">
+
+    <script src="script.js"></script>
+</head>
+<body onload="inizializza()">
+    <div class="main-containter">
+        <div class="result-containter">
+            <div class="result-area" id="result"></div>
+        </div>
+
+        <div class="buttons-containter">
+            <div class="buttons-area">
+
+                <!-- PRIMA RIGA -->
+                <div class="tasto" id="ac">AC</div>
+                <div class="tasto" id="pm"> <small><sup>+</sup></small>/ <small><sub>-</sub></small> </div>
+                <div class="tasto" id="module">%</div>
+                <div class="tasto" id="divide">÷</div>
+
+                <!-- SECONDA RIGA -->
+                <div class="tasto tastoNumerico" id="7">7</div>
+                <div class="tasto tastoNumerico" id="8">8</div>
+                <div class="tasto tastoNumerico" id="9">9</div>
+                <div class="tasto" id="mul">X</div>
+
+                <!-- TERZA RIGA -->
+                <div class="tasto tastoNumerico" id="4">4</div>
+                <div class="tasto tastoNumerico" id="5">5</div>
+                <div class="tasto tastoNumerico" id="6">6</div>
+                <div class="tasto" id="sub">-</div>
+
+                <!-- QUARTA RIGA -->
+                <div class="tasto tastoNumerico" id="1">1</div>
+                <div class="tasto tastoNumerico" id="2">2</div>
+                <div class="tasto tastoNumerico" id="3">3</div>
+                <div class="tasto" id="add">+</div>
+
+                <!-- QUINTA RIGA -->
+                <div class="tasto tastoNumerico" id="0">&nbsp;&nbsp;&nbsp;0</div>
+                <div class="tasto" id="decimal">,</div>
+                <div class="tasto" id="equals">=</div>
+
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
