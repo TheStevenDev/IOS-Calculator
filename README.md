@@ -1,5 +1,6 @@
 
 <h1>iOS Calculator Clone</h1>
+<p>Try a demo: <a href="https://thestevendev.github.io/IOS-Calculator/">here</a></p>
 <p>This is a clone of the iOS calculator built using HTML, CSS, and JavaScript. It replicates the interactive math operations found in the iOS calculator within web browsers.</p>
 
 <h2>Features</h2>
